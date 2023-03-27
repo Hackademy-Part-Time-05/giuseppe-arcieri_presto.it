@@ -21,9 +21,11 @@ function fixedNavbar(){
     const navb = document.querySelector("#navbar")
     if (window.scrollY > 100) {
         navb.classList.add("thin");
+        navb.classList.add("bg-white");
         console.log("check");
     } else {
         navb.classList.remove("thin");
+        navb.classList.remove("bg-white");
         console.log("checkelse");
     }
 }
